@@ -1,10 +1,527 @@
 {
   "minimum_score_to_save": 25,
-  "minimum_score_for_alert": 40,
+  "minimum_score_for_alert": 70,
   "generate_materials_for_saved_jobs": false,
+  "location_focus": [
+    "Houston, TX",
+    "Remote",
+    "Hybrid"
+  ],
+  "keywords": [
+    "Chief Marketing Officer",
+    "CMO",
+    "VP Marketing",
+    "Vice President Marketing",
+    "Head of Marketing",
+    "Director Marketing",
+    "Director of Field Marketing",
+    "Director Brand Marketing",
+    "Director Growth Marketing",
+    "Director Loyalty",
+    "Customer Marketing",
+    "Retail Marketing",
+    "Brand Strategy"
+  ],
   "sources": [
-    {"type": "greenhouse", "token": "stripe", "label": "Stripe"},
-    {"type": "ashby", "token": "airapps", "label": "Air Apps"},
-    {"type": "company", "url": "https://www.zipline.com/careers", "label": "Zipline"}
+    {
+      "type": "greenhouse",
+      "label": "Airbnb",
+      "token": "airbnb"
+    },
+    {
+      "type": "greenhouse",
+      "label": "Stripe",
+      "token": "stripe"
+    },
+    {
+      "type": "greenhouse",
+      "label": "DoorDash",
+      "token": "doordash"
+    },
+    {
+      "type": "greenhouse",
+      "label": "Robinhood",
+      "token": "robinhood"
+    },
+    {
+      "type": "greenhouse",
+      "label": "Coinbase",
+      "token": "coinbase"
+    },
+    {
+      "type": "greenhouse",
+      "label": "Reddit",
+      "token": "reddit"
+    },
+    {
+      "type": "greenhouse",
+      "label": "Figma",
+      "token": "figma"
+    },
+    {
+      "type": "greenhouse",
+      "label": "Notion",
+      "token": "notion"
+    },
+    {
+      "type": "greenhouse",
+      "label": "Datadog",
+      "token": "datadog"
+    },
+    {
+      "type": "greenhouse",
+      "label": "MongoDB",
+      "token": "mongodb"
+    },
+    {
+      "type": "greenhouse",
+      "label": "Asana",
+      "token": "asana"
+    },
+    {
+      "type": "greenhouse",
+      "label": "Toast",
+      "token": "toast"
+    },
+    {
+      "type": "greenhouse",
+      "label": "Okta",
+      "token": "okta"
+    },
+    {
+      "type": "greenhouse",
+      "label": "Zapier",
+      "token": "zapier"
+    },
+    {
+      "type": "greenhouse",
+      "label": "HubSpot",
+      "token": "hubspot"
+    },
+    {
+      "type": "greenhouse",
+      "label": "Box",
+      "token": "box"
+    },
+    {
+      "type": "greenhouse",
+      "label": "Dropbox",
+      "token": "dropbox"
+    },
+    {
+      "type": "greenhouse",
+      "label": "Affirm",
+      "token": "affirm"
+    },
+    {
+      "type": "greenhouse",
+      "label": "Instacart",
+      "token": "instacart"
+    },
+    {
+      "type": "greenhouse",
+      "label": "Lyft",
+      "token": "lyft"
+    },
+    {
+      "type": "lever",
+      "label": "Netlify",
+      "token": "netlify"
+    },
+    {
+      "type": "lever",
+      "label": "Benchling",
+      "token": "benchling"
+    },
+    {
+      "type": "lever",
+      "label": "Postman",
+      "token": "postman"
+    },
+    {
+      "type": "lever",
+      "label": "Mixpanel",
+      "token": "mixpanel"
+    },
+    {
+      "type": "lever",
+      "label": "Zapier",
+      "token": "zapier"
+    },
+    {
+      "type": "lever",
+      "label": "Discord",
+      "token": "discord"
+    },
+    {
+      "type": "lever",
+      "label": "Twitch",
+      "token": "twitch"
+    },
+    {
+      "type": "lever",
+      "label": "Samsara",
+      "token": "samsara"
+    },
+    {
+      "type": "lever",
+      "label": "Verkada",
+      "token": "verkada"
+    },
+    {
+      "type": "lever",
+      "label": "Chime",
+      "token": "chime"
+    },
+    {
+      "type": "lever",
+      "label": "Calendly",
+      "token": "calendly"
+    },
+    {
+      "type": "lever",
+      "label": "Ramp",
+      "token": "ramp"
+    },
+    {
+      "type": "lever",
+      "label": "Gusto",
+      "token": "gusto"
+    },
+    {
+      "type": "lever",
+      "label": "Intercom",
+      "token": "intercom"
+    },
+    {
+      "type": "lever",
+      "label": "Braze",
+      "token": "braze"
+    },
+    {
+      "type": "ashby",
+      "label": "Air Apps",
+      "token": "airapps"
+    },
+    {
+      "type": "ashby",
+      "label": "Anthropic",
+      "token": "anthropic"
+    },
+    {
+      "type": "ashby",
+      "label": "Perplexity",
+      "token": "perplexity"
+    },
+    {
+      "type": "ashby",
+      "label": "Linear",
+      "token": "linear"
+    },
+    {
+      "type": "ashby",
+      "label": "Mercury",
+      "token": "mercury"
+    },
+    {
+      "type": "ashby",
+      "label": "Replit",
+      "token": "replit"
+    },
+    {
+      "type": "ashby",
+      "label": "Runway",
+      "token": "runway"
+    },
+    {
+      "type": "ashby",
+      "label": "Rippling",
+      "token": "rippling"
+    },
+    {
+      "type": "ashby",
+      "label": "Writer",
+      "token": "writer"
+    },
+    {
+      "type": "company",
+      "label": "Walmart",
+      "url": "https://careers.walmart.com/"
+    },
+    {
+      "type": "company",
+      "label": "Target",
+      "url": "https://corporate.target.com/careers"
+    },
+    {
+      "type": "company",
+      "label": "Amazon",
+      "url": "https://www.amazon.jobs/"
+    },
+    {
+      "type": "company",
+      "label": "CVS Health",
+      "url": "https://jobs.cvshealth.com/"
+    },
+    {
+      "type": "company",
+      "label": "Walgreens",
+      "url": "https://jobs.walgreens.com/"
+    },
+    {
+      "type": "company",
+      "label": "Kroger",
+      "url": "https://careers.kroger.com/"
+    },
+    {
+      "type": "company",
+      "label": "Home Depot",
+      "url": "https://careers.homedepot.com/"
+    },
+    {
+      "type": "company",
+      "label": "Lowe's",
+      "url": "https://jobs.lowes.com/"
+    },
+    {
+      "type": "company",
+      "label": "Starbucks",
+      "url": "https://careers.starbucks.com/"
+    },
+    {
+      "type": "company",
+      "label": "McDonald's",
+      "url": "https://careers.mcdonalds.com/"
+    },
+    {
+      "type": "company",
+      "label": "Nike",
+      "url": "https://jobs.nike.com/"
+    },
+    {
+      "type": "company",
+      "label": "Adidas",
+      "url": "https://careers.adidas-group.com/"
+    },
+    {
+      "type": "company",
+      "label": "PepsiCo",
+      "url": "https://careers.pepsicojobs.com/"
+    },
+    {
+      "type": "company",
+      "label": "Coca-Cola",
+      "url": "https://www.coca-colacompany.com/careers"
+    },
+    {
+      "type": "company",
+      "label": "Unilever",
+      "url": "https://www.unilever.com/careers/"
+    },
+    {
+      "type": "company",
+      "label": "Procter & Gamble",
+      "url": "https://www.pgcareers.com/"
+    },
+    {
+      "type": "company",
+      "label": "Kraft Heinz",
+      "url": "https://www.kraftheinzcompany.com/careers.html"
+    },
+    {
+      "type": "company",
+      "label": "Mondelez",
+      "url": "https://careers.mondelezinternational.com/"
+    },
+    {
+      "type": "company",
+      "label": "General Mills",
+      "url": "https://careers.generalmills.com/"
+    },
+    {
+      "type": "company",
+      "label": "Conagra Brands",
+      "url": "https://jobs.conagrabrands.com/"
+    },
+    {
+      "type": "company",
+      "label": "Kellanova",
+      "url": "https://careers.kelloggcompany.com/"
+    },
+    {
+      "type": "company",
+      "label": "Hershey",
+      "url": "https://careers.hersheys.com/"
+    },
+    {
+      "type": "company",
+      "label": "Mars",
+      "url": "https://careers.mars.com/"
+    },
+    {
+      "type": "company",
+      "label": "Nestle",
+      "url": "https://www.nestlejobs.com/"
+    },
+    {
+      "type": "company",
+      "label": "Keurig Dr Pepper",
+      "url": "https://careers.keurigdrpepper.com/"
+    },
+    {
+      "type": "company",
+      "label": "ExxonMobil",
+      "url": "https://jobs.exxonmobil.com/"
+    },
+    {
+      "type": "company",
+      "label": "Chevron",
+      "url": "https://careers.chevron.com/"
+    },
+    {
+      "type": "company",
+      "label": "Shell",
+      "url": "https://www.shell.com/careers.html"
+    },
+    {
+      "type": "company",
+      "label": "BP",
+      "url": "https://www.bp.com/en/global/corporate/careers.html"
+    },
+    {
+      "type": "company",
+      "label": "Phillips 66",
+      "url": "https://careers.phillips66.com/"
+    },
+    {
+      "type": "company",
+      "label": "Marathon Petroleum",
+      "url": "https://www.marathonpetroleum.com/Careers/"
+    },
+    {
+      "type": "company",
+      "label": "Valero",
+      "url": "https://careers.valero.com/"
+    },
+    {
+      "type": "company",
+      "label": "Occidental Petroleum",
+      "url": "https://careers.oxy.com/"
+    },
+    {
+      "type": "company",
+      "label": "CenterPoint Energy",
+      "url": "https://careers.centerpointenergy.com/"
+    },
+    {
+      "type": "company",
+      "label": "Halliburton",
+      "url": "https://careers.halliburton.com/"
+    },
+    {
+      "type": "company",
+      "label": "SLB",
+      "url": "https://careers.slb.com/"
+    },
+    {
+      "type": "company",
+      "label": "Baker Hughes",
+      "url": "https://careers.bakerhughes.com/"
+    },
+    {
+      "type": "company",
+      "label": "MD Anderson",
+      "url": "https://www.mdanderson.org/about-md-anderson/careers.html"
+    },
+    {
+      "type": "company",
+      "label": "Texas Children's",
+      "url": "https://www.texaschildrenspeople.org/careers/"
+    },
+    {
+      "type": "company",
+      "label": "Memorial Hermann",
+      "url": "https://jobs.memorialhermann.org/"
+    },
+    {
+      "type": "company",
+      "label": "Houston Methodist",
+      "url": "https://careers.houstonmethodist.org/"
+    },
+    {
+      "type": "company",
+      "label": "United Airlines",
+      "url": "https://careers.united.com/"
+    },
+    {
+      "type": "company",
+      "label": "Southwest Airlines",
+      "url": "https://careers.southwestair.com/"
+    },
+    {
+      "type": "company",
+      "label": "JPMorgan Chase",
+      "url": "https://careers.jpmorgan.com/"
+    },
+    {
+      "type": "company",
+      "label": "Bank of America",
+      "url": "https://careers.bankofamerica.com/"
+    },
+    {
+      "type": "company",
+      "label": "Wells Fargo",
+      "url": "https://www.wellsfargojobs.com/"
+    },
+    {
+      "type": "company",
+      "label": "Citi",
+      "url": "https://jobs.citi.com/"
+    },
+    {
+      "type": "company",
+      "label": "Publicis Groupe",
+      "url": "https://www.publicisgroupe.com/en/careers"
+    },
+    {
+      "type": "company",
+      "label": "WPP",
+      "url": "https://www.wpp.com/en/careers"
+    },
+    {
+      "type": "company",
+      "label": "Omnicom Group",
+      "url": "https://www.omnicomgroup.com/careers/"
+    },
+    {
+      "type": "company",
+      "label": "Interpublic Group",
+      "url": "https://www.interpublic.com/careers/"
+    },
+    {
+      "type": "company",
+      "label": "Accenture",
+      "url": "https://www.accenture.com/us-en/careers"
+    },
+    {
+      "type": "company",
+      "label": "Deloitte",
+      "url": "https://www.deloitte.com/us/en/careers.html"
+    },
+    {
+      "type": "company",
+      "label": "PwC",
+      "url": "https://www.pwc.com/us/en/careers.html"
+    },
+    {
+      "type": "company",
+      "label": "EY",
+      "url": "https://www.ey.com/en_us/careers"
+    },
+    {
+      "type": "company",
+      "label": "KPMG",
+      "url": "https://kpmg.com/us/en/careers.html"
+    }
   ]
 }
