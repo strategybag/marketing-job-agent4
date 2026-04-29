@@ -1,0 +1,32 @@
+{
+  "minimum_score_to_save": 70,
+  "minimum_score_for_alert": 80,
+  "generate_materials_for_saved_jobs": true,
+  "sources": [
+    {
+      "type": "greenhouse",
+      "token": "stripe",
+      "label": "Stripe"
+    },
+    {
+      "type": "ashby",
+      "token": "air",
+      "label": "Air"
+    },
+    {
+      "type": "lever",
+      "token": "zipline",
+      "label": "Zipline"
+    },
+    {
+      "type": "company",
+      "url": "https://www.kettleandfire.com/pages/careers",
+      "label": "Kettle & Fire"
+    },
+    {
+      "type": "company",
+      "url": "https://wildalaskancompany.com/careers",
+      "label": "Wild Alaskan Company"
+    }
+  ]
+}
