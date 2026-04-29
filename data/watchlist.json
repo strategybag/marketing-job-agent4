@@ -1,32 +1,10 @@
 {
-  "minimum_score_to_save": 70,
-  "minimum_score_for_alert": 80,
-  "generate_materials_for_saved_jobs": true,
+  "minimum_score_to_save": 25,
+  "minimum_score_for_alert": 40,
+  "generate_materials_for_saved_jobs": false,
   "sources": [
-    {
-      "type": "greenhouse",
-      "token": "stripe",
-      "label": "Stripe"
-    },
-    {
-      "type": "ashby",
-      "token": "air",
-      "label": "Air"
-    },
-    {
-      "type": "lever",
-      "token": "zipline",
-      "label": "Zipline"
-    },
-    {
-      "type": "company",
-      "url": "https://www.kettleandfire.com/pages/careers",
-      "label": "Kettle & Fire"
-    },
-    {
-      "type": "company",
-      "url": "https://wildalaskancompany.com/careers",
-      "label": "Wild Alaskan Company"
-    }
+    {"type": "greenhouse", "token": "stripe", "label": "Stripe"},
+    {"type": "ashby", "token": "airapps", "label": "Air Apps"},
+    {"type": "company", "url": "https://www.zipline.com/careers", "label": "Zipline"}
   ]
 }
